@@ -42,11 +42,11 @@ body {
 }
 
 /* Overlay Content (Filtering Options) */
-.overlay-content {
+.centered-content {
     position: absolute;
     color: white;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.6);
     /* Dark transparent background */
     padding: 20px;
     border-radius: 10px;
@@ -59,8 +59,10 @@ body {
 
 .filter-btn {
     background: white;
+    border: 2px solid black;
     color: black;
-    border: none;
+    width: 120px;
+
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
@@ -79,4 +81,8 @@ body {
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
+}
+
+.find-heading {
+    color: black;
 }
