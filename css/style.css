@@ -46,8 +46,8 @@ body {
     position: absolute;
     color: white;
     text-align: center;
-    background: rgba(255, 255, 255, 0.6);
-    /* Dark transparent background */
+    background: white;
+
     padding: 20px;
     border-radius: 10px;
 }
@@ -85,4 +85,14 @@ body {
 
 .find-heading {
     color: black;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.cardimage {
+    width: 415px;
+    height: 500px;
+
 }
