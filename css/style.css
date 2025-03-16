@@ -9,13 +9,10 @@
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: white !important;
+    background-color: #d3e0e0 !important;
 }
 
-body {
-    padding-top: 80px;
 
-}
 
 
 /* Container for the hero section */
@@ -99,4 +96,18 @@ body {
     width: 412px;
     height: 500px;
 
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.form {
+    text-align: center;
 }
