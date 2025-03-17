@@ -85,11 +85,15 @@
 }
 
 .card {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-style: solid;
     border-width: 3px;
     border-color: black;
+}
+
+.cardrow {
+    padding-top: 240px;
 }
 
 .cardimage {
@@ -110,4 +114,5 @@
 
 .form {
     text-align: center;
+
 }
