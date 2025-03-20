@@ -14,7 +14,8 @@ body {
 
 .Food-cart {
     width: 850px;
-    height: 500px;
+    height: auto;
+    min-height: 600px;
     margin: 80px auto;
     background: #FFFFFF;
     box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
