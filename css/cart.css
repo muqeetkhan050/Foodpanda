@@ -137,5 +137,34 @@ input:focus {
     padding: 5px 0;
     font-size: 16px;
     color: #43484D;
+    border: 2px solid black;
+
+
+
+}
+
+@media (max-width: 768px) {
+    .placeorderbutton button {
+        width: 90%;
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .placeorderbutton {
+        margin: 15px 0;
+    }
+}
+
+.checkout-button {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    padding: 0px;
+
 
 }
